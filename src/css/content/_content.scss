@@ -1,0 +1,666 @@
+.content {
+  header {
+    margin-top: -100px;
+    background-position: 75% 0;
+    background-image: url("/src/assets/hero.png");
+    height: 800px;
+
+    .heading {
+      padding-top: 300px;
+      padding-left: 30px;
+      color: #f5f5f5;
+      font-family: "Lexend Deca";
+
+      h1 {
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+      }
+
+      p {
+        margin-top: 16px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+      }
+    }
+
+    .hero-offer {
+      margin-top: 55px;
+      color: #fff;
+
+      .email {
+        input {
+          width: 380px;
+
+          border: 2px solid #d1ecfd;
+          border-radius: 4px;
+        }
+        .icon-arrow {
+          top: 7px;
+          right: 16px;
+        }
+      }
+
+      .early {
+        .btn-early {
+          background-color: #5468e7;
+          border-radius: 4px;
+          width: 380px;
+        }
+      }
+    }
+
+    @include media-breakpoint-up(sm) {
+      background-image: url("/src/assets/hero.png");
+      margin-top: -100px;
+      margin-right: 55px !important;
+
+      .heading {
+        padding-top: 350px;
+        padding-left: 30px;
+
+        color: #f5f5f5;
+        font-family: "Lexend Deca";
+
+        h1 {
+          font-size: 50px;
+          font-style: normal;
+          font-weight: 700;
+        }
+
+        p {
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+        }
+      }
+
+      .hero-offer {
+        color: #fff;
+
+        .email {
+          input {
+            width: 300px;
+
+            border: 2px solid #d1ecfd;
+            border-radius: 4px;
+          }
+          .icon-arrow {
+            top: 7px;
+            right: 16px;
+          }
+        }
+
+        .early {
+          .btn-early {
+            background-color: #5468e7;
+            border-radius: 4px;
+            width: 200px;
+          }
+        }
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      background-image: url("/src/assets/hero.png");
+      margin-top: -130px;
+      margin-right: 55px !important;
+
+      .heading {
+        padding-top: 350px;
+        padding-left: 150px;
+        color: #f5f5f5;
+        font-family: "Lexend Deca";
+
+        h1 {
+          font-size: 50px;
+          font-style: normal;
+          font-weight: 700;
+        }
+
+        p {
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+        }
+      }
+
+      .hero-offer {
+        color: #fff;
+
+        .email {
+          input {
+            width: 300px;
+
+            border: 2px solid #d1ecfd;
+            border-radius: 4px;
+          }
+          .icon-arrow {
+            top: 7px;
+            right: 16px;
+          }
+        }
+
+        .early {
+          .btn-early {
+            background-color: #5468e7;
+            border-radius: 4px;
+          }
+        }
+      }
+    }
+  }
+
+  .teams {
+    margin-top: 40px;
+    padding-left: 30px;
+    .heading {
+      margin-top: 46px;
+      h1 {
+        color: #232340;
+        font-family: "Lexend Deca";
+        font-size: 50px;
+        font-style: normal;
+      }
+
+      p {
+        margin-top: 24px;
+        color: rgba(35, 35, 64, 0.9);
+
+        /* Paragraph/Desktop */
+        font-family: "Lexend Deca";
+        font-size: 18px;
+      }
+    }
+    .mockup {
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    .teams {
+      margin-top: 120px;
+      .heading {
+        padding: 50px;
+        margin-top: -50px;
+        h1 {
+          color: #232340;
+          font-family: "Lexend Deca";
+          font-size: 50px;
+          font-style: normal;
+        }
+
+        p {
+          margin-top: 24px;
+          color: rgba(35, 35, 64, 0.9);
+
+          /* Paragraph/Desktop */
+          font-family: "Lexend Deca";
+          font-size: 18px;
+        }
+      }
+      .mockup {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  #info {
+    margin-top: 120px;
+    img {
+      width: 100%;
+    }
+
+    .heading {
+      margin-top: 46px;
+      h1 {
+        color: #232340;
+        font-family: "Lexend Deca";
+        font-size: 50px;
+        font-style: normal;
+      }
+
+      p {
+        margin-top: 24px;
+        color: rgba(35, 35, 64, 0.9);
+
+        /* Paragraph/Desktop */
+        font-family: "Lexend Deca";
+        font-size: 18px;
+      }
+    } 
+
+    @include media-breakpoint-up(md) {
+      margin-top: 120px;
+      .heading {
+        margin-top: 20px;
+        padding-left: 24px;
+        h1 {
+          color: #232340;
+          font-family: "Lexend Deca";
+          font-size: 34px;
+          font-style: normal;
+        }
+
+        p {
+          margin-top: 24px;
+          color: rgba(35, 35, 64, 0.9);
+
+          /* Paragraph/Desktop */
+          font-family: "Lexend Deca";
+          font-size: 16px;
+        }
+
+        .learn {
+          margin-top: 45px;
+        }
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-top: 120px;
+      .heading {
+        margin-top: 100px;
+        padding-left: 130px;
+        h1 {
+          color: #232340;
+          font-family: "Lexend Deca";
+          font-size: 50px;
+          font-style: normal;
+        }
+
+        p {
+          margin-top: 24px;
+          color: rgba(35, 35, 64, 0.9);
+
+          /* Paragraph/Desktop */
+          font-family: "Lexend Deca";
+          font-size: 18px;
+        }
+
+        .learn {
+          margin-top: 45px;
+        }
+      }
+    }
+  }
+
+  #work {
+    margin-top: 120px;
+    img {
+      width: 100%;
+    }
+
+    .heading {
+      margin-top: 46px;
+      h1 {
+        color: #232340;
+        font-family: "Lexend Deca";
+        font-size: 50px;
+        font-style: normal;
+      }
+
+      p {
+        margin-top: 24px;
+        color: rgba(35, 35, 64, 0.9);
+
+        /* Paragraph/Desktop */
+        font-family: "Lexend Deca";
+        font-size: 18px;
+      }
+    } 
+
+    @include media-breakpoint-up(md) {
+      margin-top: 120px;
+      .heading {
+        margin-top: 20px;
+        padding-left: 24px;
+        h1 {
+          color: #232340;
+          font-family: "Lexend Deca";
+          font-size: 34px;
+          font-style: normal;
+        }
+
+        p {
+          margin-top: 24px;
+          color: rgba(35, 35, 64, 0.9);
+
+          /* Paragraph/Desktop */
+          font-family: "Lexend Deca";
+          font-size: 16px;
+        }
+
+        .learn {
+          margin-top: 45px;
+        }
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-top: 120px;
+      .heading {
+        margin-top: 100px;
+        padding-right: 130px;
+        h1 {
+          color: #232340;
+          font-family: "Lexend Deca";
+          font-size: 50px;
+          font-style: normal;
+        }
+
+        p {
+          margin-top: 24px;
+          color: rgba(35, 35, 64, 0.9);
+
+          /* Paragraph/Desktop */
+          font-family: "Lexend Deca";
+          font-size: 18px;
+        }
+
+        .learn {
+          margin-top: 45px;
+        }
+      }
+    }
+  }
+
+  #tools {
+    margin-top: 80px;
+    img {
+      width: 100%;
+    }
+
+    .mockup {
+      .image {
+        bottom: 25px;
+        left: 25px;
+      }
+    }
+
+    .heading {
+      margin-top: 46px;
+      h1 {
+        color: #232340;
+        font-family: "Lexend Deca";
+        font-size: 50px;
+        font-style: normal;
+      }
+
+      p {
+        margin-top: 24px;
+        color: rgba(35, 35, 64, 0.9);
+
+        /* Paragraph/Desktop */
+        font-family: "Lexend Deca";
+        font-size: 18px;
+      }
+    }
+    
+    @include media-breakpoint-up(md) {
+      .mockup {
+        .image {
+          bottom: 25px;
+          left: 25px;
+
+          img {
+            height: 200px;
+          }
+        }
+      }
+      margin-top: 120px;
+      .heading {
+        padding-left: 20px;
+        margin-top: 30px;
+        h1 {
+          color: #232340;
+          font-family: "Lexend Deca";
+          font-size: 34px;
+          font-style: normal;
+        }
+
+        p {
+          margin-top: 24px;
+          color: rgba(35, 35, 64, 0.9);
+
+          /* Paragraph/Desktop */
+          font-family: "Lexend Deca";
+          font-size: 16px;
+        }
+
+        .learn {
+          margin-top: 45px;
+        }
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-top: 120px;
+      .mockup {
+        .image {
+          bottom: 25px;
+          left: 25px;
+
+          img {
+            height: 100%;
+          }
+        }
+      }
+      .heading {
+        margin-top: 100px;
+        margin-left: 130px;
+        h1 {
+          color: #232340;
+          font-family: "Lexend Deca";
+          font-size: 50px;
+          font-style: normal;
+        }
+
+        p {
+          margin-top: 24px;
+          color: rgba(35, 35, 64, 0.9);
+
+          /* Paragraph/Desktop */
+          font-family: "Lexend Deca";
+          font-size: 18px;
+        }
+
+        .learn {
+          margin-top: 45px;
+        }
+      }
+    }
+  }
+
+  #review {
+    margin-top: 200px;
+    .review-title {
+      text-align: center;
+      color: #232340;
+      font-weight: bold;
+      font-family: "Lexend Deca";
+      font-size: 50px;
+    }
+
+    .card {
+      cursor: pointer;
+      margin-top: 120px;
+      border: 0;
+      box-shadow: 0px 16px 24px 0px rgba(118, 118, 178, 0.24);
+
+      
+      
+      .card-body {
+        padding: 44px 33px;
+        width: 367px;
+        min-width: 260px;
+        max-width: 367px;
+        .star {
+          margin-bottom: 24px;
+        }
+
+        .user {
+          margin-top: 40px;
+          .avatar {
+            img {
+              width: 56px;
+              height: 56px;
+            }
+          }
+
+          h1 {
+            color: #232340;
+
+            font-family: "Lexend Deca";
+            font-size: 24px;
+          }
+
+          p {
+            color: #7676b2;
+            margin-top: -8px;
+            /* Caption/Desktop */
+            font-family: "Lexend Deca";
+            font-size: 14px;
+          }
+        }
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      .card {
+        cursor: pointer;
+        margin-top: 120px;
+        border: 0;
+        box-shadow: 0px 16px 24px 0px rgba(118, 118, 178, 0.24);
+  
+       
+        .card-body {
+           
+          padding: 44px 33px;
+  
+          .star {
+            margin-bottom: 24px;
+          }
+  
+          .user {
+            margin-top: 40px;
+            .avatar {
+              img {
+                width: 56px;
+                height: 56px;
+              }
+            }
+  
+            h1 {
+              color: #232340;
+  
+              font-family: "Lexend Deca";
+              font-size: 24px;
+            }
+  
+            p {
+              color: #7676b2;
+              margin-top: -8px;
+              /* Caption/Desktop */
+              font-family: "Lexend Deca";
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      
+      
+    }
+  }
+}
+
+#footer {
+  margin-top: 165px;
+  background: #232340;
+
+  .footerd {
+    padding-top: 100px;
+    .email {
+      input {
+        width: 120%;
+
+        border-radius: 4px;
+        background: rgba(245, 245, 245, 0.24);
+        border: 0;
+        &::placeholder {
+          color: #fff;
+        }
+      }
+      .icon-arrow {
+        top: 7px;
+        right: -25px;
+      }
+    }
+    h5 {
+      color: #5468e7;
+    }
+    ul {
+      li {
+        margin-top: 12px;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .copyright {
+    margin-top: 120px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding: 20px 100px;
+    background: #232340;
+    img {
+      width: 100%;
+    }
+
+    .footerd {
+      padding-top: 100px;
+      .email {
+        input {
+          width: 120%;
+
+          border-radius: 4px;
+          background: rgba(245, 245, 245, 0.24);
+          &::placeholder {
+            color: #fff;
+          }
+        }
+        .icon-arrow {
+          top: 7px;
+          right: -25px;
+        }
+      }
+      h5 {
+        color: #5468e7;
+      }
+      ul {
+        li {
+          margin-top: 12px;
+
+          a {
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    .copyright {
+      margin-top: 180px;
+    }
+  }
+}

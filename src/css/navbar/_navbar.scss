@@ -1,0 +1,51 @@
+.navbar {
+ 
+  margin-top: 40px;
+
+  &.mobile {
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(25px);
+    background: transparent;
+    border-radius: 10px;
+  }
+  .navbar-brand {
+    margin-top: 0;
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .toggle {
+    cursor: pointer !important;
+  }
+
+  .navbar-nav {
+    .nav-item {
+      @include media-breakpoint-up(lg) {
+        margin-right: 55px !important;
+      }
+
+      .nav-link {
+        color: #fff;
+        text-decoration: underline;
+      }
+    }
+
+    .access {
+      border: 0;
+      background: rgba(84, 104, 231, 0.5);
+      border-radius: 4px;
+      color: #fff;
+
+      &:hover {
+        background: rgba(84, 104, 231, 1);
+      }
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-color: none;
+    background: none;
+    backdrop-filter: blur(0);
+  }
+}
